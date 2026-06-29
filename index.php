@@ -6,10 +6,10 @@ ini_set('session.gc_maxlifetime', 31536000);
 session_start();
 
 // 2. CONEXIÓN A LA BASE DE DATOS
-$servidor = "localhost";
+$servidor = "mysql.railway.internal";
 $usuarioBD = "root";
-$passwordBD = "";
-$baseDatos = "cafeteria_cecytem";
+$passwordBD = "OqOmXxpMpYSJIaDLJkCnvBKRtWAbeyts";
+$baseDatos = "railway";
 
 $conn = mysqli_connect($servidor, $usuarioBD, $passwordBD, $baseDatos);
 if(!$conn){
